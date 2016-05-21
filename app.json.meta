@@ -1,0 +1,1 @@
+{"_comment":"Please don't edit. This is Architect data.","name":"TicketTracker","resources":["app.css"],"requires":[],"classpath":null,"css":[{"path":"app.css"},{"update":"delta","platform":["phone","tablet","desktop"],"theme":"Default","path":"resources/css/sencha-touch-0c5f951f-b4d3-4953-b9a6-aaf7f2e907f7.css"}],"js":[]}

@@ -1,0 +1,76 @@
+{
+   "builds": {
+      "web": {
+         "default": true
+      },
+      "native": {
+         "packager": "phonegap",
+         "phonegap": {
+            "config": {
+               "id": "com.domain.TicketTracker",
+               "name": "TicketTracker",
+               "platform": "android"
+            }
+         }
+      }
+   },
+   "name": "TicketTracker",
+   "indexHtmlPath": "index.html",
+   "framework": "touch",
+   "url": null,
+   "js": [
+      {
+         "path": "touch/sencha-touch.js",
+         "x-bootstrap": true
+      },
+      {
+         "path": "bootstrap.js",
+         "x-bootstrap": true
+      },
+      {
+         "path": "app.js",
+         "bundle": true,
+         "update": "delta"
+      }
+   ],
+   "css": [
+      {
+         "path": "app.css"
+      },
+      {
+         "update": "delta",
+         "platform": [
+            "phone",
+            "tablet",
+            "desktop"
+         ],
+         "theme": "Default",
+         "path": "resources/css/sencha-touch-0c5f951f-b4d3-4953-b9a6-aaf7f2e907f7.css"
+      }
+   ],
+   "appCache": {
+      "cache": [
+         "index.html"
+      ],
+      "network": [
+         "*"
+      ],
+      "fallback": []
+   },
+   "resources": [
+      "resources/images",
+      "resources/icons",
+      "resources/startup",
+      "app.css"
+   ],
+   "ignore": [
+      ".svn$"
+   ],
+   "archivePath": "archive",
+   "requires": [],
+   "cache": {
+      "enable": true,
+      "deltas": "deltas"
+   },
+   "id": "b8ba867f-59d8-44ea-b79d-68f786f40702"
+}
