@@ -1,6 +1,6 @@
 {
     "expandedState": {
-        "view": false,
+        "view": true,
         "cfe0a238-a2b7-4f3c-b67d-3d3ebf654170": {
             "id": "cfe0a238-a2b7-4f3c-b67d-3d3ebf654170",
             "cn": [
@@ -133,11 +133,11 @@
         "openTabs": []
     },
     "canvasState": {
-        "topInstance": "cfe0a238-a2b7-4f3c-b67d-3d3ebf654170"
+        "topInstance": null
     },
     "inspectorState": {
-        "topInstance": "2ec8a8de-e6a7-433f-8339-96ae192d7aab",
-        "selectedInstance": "2ec8a8de-e6a7-433f-8339-96ae192d7aab"
+        "topInstance": "692146e5-2db1-4df0-ad3e-dbb6703a5aa5",
+        "selectedInstance": "692146e5-2db1-4df0-ad3e-dbb6703a5aa5"
     },
     "editMode": "code",
     "userSettings": {
